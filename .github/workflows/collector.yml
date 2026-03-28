@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs at :10, :25, :40, :55 of every hour
     # These are exactly when C2 of a 15-min window closes
-    - cron: '10,25,40,55 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:  # allows manual trigger for testing
 
 permissions:
