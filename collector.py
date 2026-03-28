@@ -22,7 +22,7 @@ CLOB_API  = 'https://clob.polymarket.com'
 FIVE_MIN  = 300   # 5 minutes in seconds
 FIFT_MIN  = 900   # 15 minutes in seconds
 LOG_START = 601   # 10 min 1 sec into 15-min candle
-LOG_END   = 690   # 11 min 30 sec into 15-min candle
+LOG_END   = 840   # 14 min into 15-min candle
 
 
 def floor_to_boundary(ts, boundary):
