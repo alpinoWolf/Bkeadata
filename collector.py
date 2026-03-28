@@ -192,6 +192,9 @@ def run_collector():
     if not (LOG_START <= seconds_into_15 <= LOG_END + 10):
         print(f'Not in logging window ({LOG_START}-{LOG_END}). Exiting.')
         return
+        # Wait 60 seconds for Polymarket to settle C2 result
+print('In window — waiting 60s for C2 to settle...')
+time.sleep(60)
 
     print(f'Checking C1 (starts {c1_start}) and C2 (starts {c2_start})...')
 
