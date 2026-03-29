@@ -21,7 +21,7 @@ CLOB_API  = 'https://clob.polymarket.com'
 # ── Timing constants ──────────────────────────────────────────
 FIVE_MIN  = 300   # 5 minutes in seconds
 FIFT_MIN  = 900   # 15 minutes in seconds
-LOG_START = 601   # 10 min 1 sec into 15-min candle
+LOG_START = 360   # 06 min 1 sec into 15-min candle
 LOG_END   = 840   # 14 min into 15-min candle
 
 
